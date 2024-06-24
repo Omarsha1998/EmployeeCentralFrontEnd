@@ -1,0 +1,22 @@
+export default {
+  leaveData: (state) => state.leaveData,
+  leaveDetails: (state) => state.leaveDetails,
+  pendingDetails: (state) => state.pendingDetails,
+  balanceDetails: (state) => state.balanceDetails,
+  ForfeitedDetails: (state) => state.ForfeitedDetails,
+  userBalanceDetails: (state) => state.userBalanceDetails,
+  base64Image: (state) => state.base64Image,
+  approvedDetails: (state) => state.approvedDetails,
+  rejectedDetails: (state) => state.rejectedDetails,
+  getNumberOf403Errors: (state) => state.numberOf403Errors,
+  userApprovedLeave: (state) => state.userApprovedLeave,
+  userRejectedLeave: (state) => state.userRejectedLeave,
+  cancelPending: (state) => state.cancelPending,
+  approversDetails: (state) => state.approversDetails,
+  userApprovedCancel: (state) => state.userApprovedCancel,
+  userRejectedCancel: (state) => state.userRejectedCancel,
+  rejectedCancel: (state) => state.rejectedCancel,
+  approvedCancel: (state) => state.approvedCancel,
+  leaveTypes: (state) => state.leaveTypes,
+  empDetails: (state) => state.empDetails
+}
